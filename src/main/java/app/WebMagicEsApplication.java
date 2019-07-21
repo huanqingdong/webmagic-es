@@ -16,7 +16,7 @@ public class WebMagicEsApplication {
         // 爬取结果存放文件夹
         String saveDir = "D:/es-doc";
         EsDocPageProcessor.crawl(beginUrl, saveDir);
-        
+
         /*
           词频统计结果名,会写两个文件
           ${resultFileName}SortedByKey.txt:存储按字母排序的结果
